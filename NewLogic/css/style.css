@@ -17,13 +17,17 @@ body {
 
 nav.navbar a.navbar-brand {
 	padding: 5px;
+	align-items: center;
 
 }
 
 .new-logic-logo {
 	width: 137px;
 }
+.officeNewLogic {
+	width: 100%;
 
+}
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -73,9 +77,12 @@ nav.navbar a.navbar-brand {
 #team {
 	background-color: #FAFAFA;
 }
-
+.hugs {
+	background-color: black;
+	height: 20%;
+}
 #toPixel {
-	height: 129px;
+	height: 20%;
 	margin-top: 25px;
 	background-color: black;
 }
@@ -92,8 +99,12 @@ nav.navbar a.navbar-brand {
 }
 
 #WhatWeDo {
-	margin-top: 8%;
+	margin-top: 2%;
 	margin-bottom: 8%;
+}
+#toPORTFOLIO {
+	margin-top: 2%;
+	margin-bottom: 48%;
 }
 
 /* Slider */
@@ -106,16 +117,11 @@ nav.navbar a.navbar-brand {
 }
 
 #textSlider div {
-	color: red;
+	color: #136DFB;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 }
-/*.main-nav{
-		text-align: center;
-    margin: 10px 0 0px;
-    padding: 0;
-    list-style: none;
-}*/
+
 
 .iamCol {
   text-align: right;
@@ -167,6 +173,10 @@ nav.navbar a.navbar-brand {
 
    100% {margin-top: 0px;}
 }
+.formpage {
+	margin-left: 30%;
+}
+
 footer{
 	height: 50%;
 	width: 100%;
